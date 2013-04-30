@@ -1,0 +1,81 @@
+<!DOCTYPE html> 
+<html> 
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>Mengapa mempelajari Robotika</title> 
+	<link rel="stylesheet" href="js/jquery.mobile-1.0.1.min.css" />  
+	<link rel="stylesheet" href="js/_assets/css/jqm-docs.css"/>
+	<script src="js/jquery.js"></script>
+	<script src="js/experiments/themeswitcher/jquery.mobile.themeswitcher.js"></script>
+	<script src="js/_assets/js/jqm-docs.js"></script>
+	<script src="js/jquery.mobile-1.0.1.min.js"></script>
+</head> 
+<body> 
+
+<div data-role="page" class="type-interior">
+
+	<div data-role="header" data-theme="b">
+		<h1>Mengapa mempelajari Robotika</h1>
+		<a href="/" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
+	</div><!-- /header -->
+
+	<div data-role="content">
+		<div class="content-primary">
+	
+		 <h2>Mengapa mempelajari Robotika?</h2>		
+				
+			<ul>
+				<li>Robotika adalah integrator terkemuka di dunia pendidikan saat ini.</li>
+			   <li>Robotika memungkinkan guru untuk berbicara tentang desain, inovasi, pemecahan masalah, dan kerja sama pada saat yang sama merekaberbicara tentang matematika, ilmu pengetahuan, dan teknologi; robotikamenempatkan konsep-konsep akademis dalam konteks.</li>
+			   <li>Orang-orang dari segala usia terpesona sebagai robot bergerak di sekitar lingkungan yang tampaknya membuat keputusan sendiri</li>
+				<li>keterampilan menetapkan siswa belajar karena mereka bekerja denganrobotika dengan mudah dapat ditransfer ke karir dan profesi</li>
+				<li>Studi tentang robotika memungkinkan guru untuk memperkenalkan atau memperkuat banyak konsep fisika terapan.	</li>
+				<li>Robotika memberikan contoh pengajaran yang sangat baik dari konsepsistem dan subsistem</li>
+				<li>Robotika adalah multi-miliar dolar industri berkembang bahwa AS harus memimpin jika kita untuk mempertahankan standar hidup kita</li>
+			</ul>
+	
+				<div id="r-4-ed-academic">
+				<h1 id="r-4-ed-academic"><img src="images/the4-R-in-ed-academic-2.png" alt="Lego Mindstorms NXT" /></h1>
+				<p>Kompetensi Akademik</p>
+			</div>
+			
+			<div id="r-4-ed-workplace">
+				<h1 id="r-4-ed-workplace"><img src="images/the4-R-in-ed-workplace-2.png" alt="Lego Mindstorms NXT" /></h1>
+				<p>Kompetensi Pekerjaan</p>
+			</div>
+		
+	</div><!--/content-primary -->		
+
+	
+	<div class="content-secondary">
+		
+		<div data-role="collapsible" data-collapsed="true" data-theme="b" data-content-theme="d">
+			
+				<h3>More in this section</h3>
+				
+				<ul data-role="listview" data-theme="c" data-dividertheme="d">				
+					<li data-role="list-divider">Tutorial</li>
+					<li data-theme="c"><a href="why-robotika.html">Mengapa robotika?</a></li>
+					<li><a href="tutorial/tutorial-1.html">Tutorial 1</a></li>
+					<li><a href="helper-downloading.html">Tutorial 2</a></li>
+					<li><a href="helper-friksi.html">Tutorial 3</a></li>
+					<li><a href="helper-pengukuran.html">Tutorial 4</a></li>
+					<li><a href="helper-motor.html">Tutorial 5</a></li>
+					<li><a href="helper-nxt.html">Tutorial 6</a></li>	
+				   <li><a href="helper-motor.html">Tutorial 7</a></li>
+					<li><a href="helper-nxt.html">Tutorial 8</a></li>		
+				</ul>
+		</div>
+	</div>		
+
+</div><!-- /content -->
+
+<div data-role="footer" class="footer-docs" data-theme="c">
+		<p>&copy; 2010-2013 Roboteku Project</p>
+</div>
+	
+</div><!-- /page -->
+
+</body>
+</html>

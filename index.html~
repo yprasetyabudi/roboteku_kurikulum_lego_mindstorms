@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery Mobile: Demos and Documentation</title>
+	<link rel="stylesheet"  href="js/jquery.mobile-1.0.1.min.css" />
+	<link rel="stylesheet" href="js/_assets/css/jqm-docs.css" />
+	<script src="js/jquery.js"></script>
+	<script src="js/experiments/themeswitcher/jquery.mobile.themeswitcher.js"></script>
+	<script src="js/_assets/js/jqm-docs.js"></script>
+	<script src="js/jquery.mobile-1.0.1.min.js"></script>
+	
+</head> 
+<body> 
+<div data-role="page" class="type-home">
+	<div data-role="content">
+		<!-- <p id="jqm-version">1.0.1 Final Release</p> -->
+
+		
+		<div class="content-secondary">
+	
+			<div id="jqm-homeheader">
+				<h1 id="jqm-logo"><img src="images/S5.jpg" alt="Lego Mindstorms NXT" /></h1>
+				<p>Buat - Program - Mainkan</p>
+			</div>
+	
+	
+			<p class="intro"><strong>Selamat Datang.</strong> 
+			Telusuri tutorial NXT ini dengan riang gembira. Kompilasi dan translate dari berbagai turorial nxt</p>
+			
+			<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="f">
+				<li data-role="list-divider">Overview</li>
+				<li><a href="docs/about/intro.html">Pengantar Lego Mindstorms NXT</a></li>
+				<li><a href="docs/about/getting-started.html">Panduan ringkas</a></li>	
+				<li><a href="docs/about/features.html">Features</a></li>
+				<li><a href="docs/about/accessibility.html">Accessibility</a></li>
+				<li><a href="docs/about/platforms.html">Supported platforms</a></li>
+			</ul>
+			
+		</div><!--/content-primary-->	
+		
+		<div class="content-primary">
+			<nav>
+				
+		
+				<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
+					<li data-role="list-divider">Tutorial</li>
+					<li><a href="why-robotika.html">Mengapa mempelajari robotika?</a></li>
+					<li><a href="tutorial/tutorial-1.html">Tutorial 1 Pengantar Robotika</a></li>
+					<li><a href="tutorial/tutorial-1.html">Tutorial 2 Pengantar Hardware</a></li>
+					<li><a href="tutorial/tutorial-1.html">Tutorial 3 Pengantar Software dan Kendali Elektronik</a></li>
+					<li><a href="tutorial/tutorial-1.html">Tutorial 4 Pengantar Pemrograman</a></li>
+					<li><a href="tutorial/tutorial-1.html">Tutorial 5 Desain dan Mekanika</a></li>
+					<li><a href="tutorial/tutorial-1.html">Tutorial 6 Sensor</a></li>
+					<li><a href="tutorial/tutorial-1.html">Tutorial 7 Pemrograman Lanjut</a></li>
+					<li><a href="tutorial/tutorial-1.html">Tutorial 8 Manajemen Project</a></li>
+					
+					<li data-role="list-divider">Petunjuk</li>
+					<li><a href="helper/helper-perilaku.html">Petunjuk Singkat</a></li>
+					<li><a href="docs/api/events.html">Nama - nama komponen LEGO</a></li>
+					<!-- 
+					<li><a href="docs/api/methods.html">Methods &amp; Utilities</a></li>
+					<li><a href="docs/api/data-attributes.html">Data attribute reference</a></li>
+					<li><a href="docs/api/themes.html">Theme framework</a></li>
+					-->
+		
+				
+				</ul>
+			</nav>
+		</div>
+
+		
+
+	</div>
+	
+	<div data-role="footer" class="footer-docs" data-theme="c">
+			<p>&copy; 2010-2013 Roboteku Project</p>
+	</div>	
+	
+</div>
+</body>
+</html>

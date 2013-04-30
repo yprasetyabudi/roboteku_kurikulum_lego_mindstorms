@@ -1,0 +1,76 @@
+<!DOCTYPE html> 
+<html> 
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>Tutorial 1 - Pengantar Robotika</title> 
+	<link rel="stylesheet" href="../js/jquery.mobile-1.0.1.min.css" />  
+	<link rel="stylesheet" href="../js/_assets/css/jqm-docs.css"/>
+	<script src="../js/jquery.js"></script>
+	<script src="../js/experiments/themeswitcher/jquery.mobile.themeswitcher.js"></script>
+	<script src="../js/_assets/js/jqm-docs.js"></script>
+	<script src="../js/jquery.mobile-1.0.1.min.js"></script>
+</head> 
+<body> 
+
+<div data-role="page" class="type-interior">
+
+	<div data-role="header" data-theme="b">
+		<h1>Tutorial 1 - Pengantar Robotika</h1>
+		<a href="../" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
+	</div><!-- /header -->
+
+	<div data-role="content">
+		<div class="content-primary">
+	<div data-role="navbar">
+		<ul>
+			<li><a href="tutorial-1.html" >Materi</a></li>
+			<li><a href="tutorial-1-guru.html" class="ui-btn-active">Guru</a></li>
+			<li><a href="tutorial-1-siswa.html">Siswa</a></li>
+			<li><a href="tutorial-1-aktivitas.html">Aktivitas</a></li>
+			<li><a href="tutorial-1-evaluasi.html">Evaluasi</a></li>
+		</ul>
+	</div><!-- /navbar -->		
+		 <h2>Guru akan melakukan:</h2>		
+
+		   <p>Siapkan presentasi tentang evolusi teknologi dan evolusi robotika; Berikan contoh dari evolusi teknologi, baik menggunakan contoh robot dari dunia yang nyata atau robot Lego.</p>
+			<p>Mintalah siswa membuat daftar robot mereka setelah melihat di film dan kontras mereka dengan teknologi robot saat ini.</p>
+			<p>Bersiaplah untuk membahas dasar pemrograman dengan siswa. Bantu mereka untuk memahami sifat  pemrograman yang berurutan dengan meminta mereka menulis satu set langkah-demi-langkah instruksi yang digunakan untuk menyelesaikan tugas.</p>
+			<p>Siapkan demo singkat dari perangkat lunak G-Programming NXT atau membuka perangkat lunak G-Programming NXT dan menunjukkan kepada siswa.</p>
+			<p>Membangun dan program robot yang menunjukkan beberapa sensor dan kontrol. Ada petunjuk untuk membangun sebuah robot sederhana ( tankbot ) pada tutorial Pengantar Perangkat Keras .</p>
+
+	
+		
+	</div><!--/content-primary -->		
+	
+	<div class="content-secondary">
+		
+		<div data-role="collapsible" data-collapsed="true" data-theme="b" data-content-theme="d">
+			
+				<h3>More in this section</h3>
+				
+				<ul data-role="listview" data-theme="c" data-dividertheme="d">				
+					<li data-role="list-divider">Tutorial 1</li>
+					<li data-theme="c"><a href="../why-robotika.html">Mengapa mempelajari robotika?</a></li>
+					<li><a href="tutorial-1.html">Tutorial 1 Pengantar Robotika</a></li>
+					<li><a href="docs/buttons/index.html">Tutorial 2 Pengantar Hardware</a></li>
+					<li><a href="docs/content/index.html">Tutorial 3 Software & Kendali Elektronik</a></li>
+					<li><a href="docs/forms/index.html">Tutorial 4 Pengantar Pemrograman</a></li>
+					<li><a href="docs/lists/index.html">Tutorial 5 Desain dan Mekanika</a></li>
+					<li><a href="docs/lists/index.html">Tutorial 6 Sensor</a></li>
+					<li><a href="docs/lists/index.html">Tutorial 7 Pemrograman Lanjut</a></li>
+					<li><a href="docs/lists/index.html">Tutorial 8 Manajemen Project</a></li>	
+				</ul>
+		</div>
+	</div>		
+
+</div><!-- /content -->
+
+<div data-role="footer" class="footer-docs" data-theme="c">
+		<p>&copy; 2010-2013 Roboteku Project</p>
+</div>
+	
+</div><!-- /page -->
+
+</body>
+</html>
